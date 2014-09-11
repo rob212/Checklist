@@ -22,6 +22,7 @@
 		708CAC4C19A77E5F0070BC28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708CAC2E19A77E5F0070BC28 /* UIKit.framework */; };
 		708CAC5419A77E5F0070BC28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 708CAC5219A77E5F0070BC28 /* InfoPlist.strings */; };
 		708CAC5619A77E5F0070BC28 /* ChecklistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CAC5519A77E5F0070BC28 /* ChecklistsTests.m */; };
+		70DF59B919C24125003A15E2 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DF59B819C24125003A15E2 /* AddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		708CAC5119A77E5F0070BC28 /* ChecklistsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChecklistsTests-Info.plist"; sourceTree = "<group>"; };
 		708CAC5319A77E5F0070BC28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		708CAC5519A77E5F0070BC28 /* ChecklistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsTests.m; sourceTree = "<group>"; };
+		70DF59B719C24125003A15E2 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		70DF59B819C24125003A15E2 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				708CAC3119A77E5F0070BC28 /* Supporting Files */,
 				7068DA2A19AB376900D1D840 /* ChecklistItem.h */,
 				7068DA2B19AB376900D1D840 /* ChecklistItem.m */,
+				70DF59B719C24125003A15E2 /* AddItemViewController.h */,
+				70DF59B819C24125003A15E2 /* AddItemViewController.m */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				708CAC3719A77E5F0070BC28 /* main.m in Sources */,
 				708CAC3B19A77E5F0070BC28 /* ChecklistsAppDelegate.m in Sources */,
 				708CAC4119A77E5F0070BC28 /* ChecklistsViewController.m in Sources */,
+				70DF59B919C24125003A15E2 /* AddItemViewController.m in Sources */,
 				7068DA2C19AB376900D1D840 /* ChecklistItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
